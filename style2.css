@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+  form{
+    background: white;
+    width: 350px;
+    height: 350px;
+    padding: 75px 50px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 45px;
+    color: white;
+  }
+  .textBoxdiv{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px;
+  }
+  .textBoxdiv input{
+    background: blanchedalmond;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+  }
+  .textBoxdiv1 input{
+    background: blanchedalmond;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+  }
+  .loginBtn{
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-size: 200%;
+    color: white;
+    font-size: 16px;
+  }
+  .loginBtn:hover{
+    background-position: right;
+    font-size: 17px;
+  }
+  .signup{
+    color: white;
+    margin-top: 45px;
+    text-align: center;
+  }
+  body {
+    background-image: url('image/login.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
